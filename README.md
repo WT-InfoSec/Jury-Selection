@@ -6,11 +6,17 @@ __________
 First each court room is initialized as a "TarrantCountyCourt" object containing the following data:
 
 Court Name - [String]
+
 Court Type - [String]
+
 Judge - [String]
+
 Number of Candidates - [Int]
+
 Candidates - [List] (Null until candidates are assigned to courts)
+
 Jury Size - [Int] (determined by Court Type)
+
 Jury - [List] (Null until Jury is selected)
 
 __________
@@ -18,11 +24,17 @@ __________
 As the program parses through the Jury Summons CSV, each candidate is initialized as a "JuryCandidate" object containing the following data:
 
 Name - [String]
+
 Jury ID - [String]
+
 Exempt List - [String] (data used to determine if candidate is exempt from Jury Duty)
+
 Attendance - [Boolean] (is the candidate present)
+
 Assigned Court - [String] (Null until court is assigned)
+
 Assigned Seat Number - [String] (Null until court is assigned)
+
 Assigned Judge - [String] (Null until court is assigned)
 
 __________
