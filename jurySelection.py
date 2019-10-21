@@ -154,12 +154,12 @@ def fillCourts(validJurors, courtBank):
 
 def addToInvalid(invalidJurors, number, name, age, address, exempt, checkIn):
     invalidJurors[number] = JuryCandidate(number, name, age, 
-									      address, exempt, checkIn)
+					  address, exempt, checkIn)
 
 
 def addToValid(validJurors, number, name, age, address, exempt, checkIn):
     validJurors[number] = JuryCandidate(number, name, age, 
-									    address, exempt, checkIn)
+					address, exempt, checkIn)
 
 
 def totalCandidatesNeeded(courtBank):
